@@ -1,0 +1,133 @@
+body {
+	font-family: 'Univers Next Pro', 'Barlow', sans-serif;
+}
+
+header {
+	background: url("../img/header.jpg") no-repeat right top fixed;
+	background-color: #e8e8e8;
+	height: 200px;
+	background-size: auto 200px;
+}
+
+h1 {
+	padding-top: 75px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-family: 'Univers Next Pro Condensed Regular', 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-weight: 420;
+	color: #4a4a4a;
+}
+
+.nav {
+	width: 100%;
+	background-color: rgba(155, 155, 155, .5);
+}
+
+.nav-item {
+	border: none;
+	font-weight: bold;
+}
+
+.nav a{
+	color: #4a4a4a;
+}
+
+.nav .nav-item {
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	padding-top: 15px;
+}
+
+.nav a.active {
+	background-color: white;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.line {
+	background-color: #c02d2d;
+	width: 135px;
+	height: 15px;
+	margin: 50px auto;
+}
+
+h2 {
+	color: #9b9b9b;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	color: #dfdfdf;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	header {
+		height: 300px;
+		background-size: auto 300px;
+	}
+	
+	h1 {
+		padding-top: 90px;
+		padding-left: 30px;
+		padding-bottom: 64px;
+	}
+	
+	.nav .nav-item {
+		height: 90px;
+		width: 150px;
+		padding-top: 35px;
+	}
+	
+	.line {
+		margin: 85px auto;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	header {
+		height: 350px;
+		background-size: auto 350px;
+	}
+	
+	h1 {
+		padding-top: 140px;
+		padding-left: 50px;
+	}
+	
+	.container {
+    max-width: 600px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.nav .nav-item {
+		width: 260px;
+	}
+	
+	.container {
+    max-width: 800px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
+
+
+
+
+
+
